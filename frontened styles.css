@@ -1,0 +1,145 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .auth a {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(to bottom, #fff, #f7f7f7);
+  }
+  
+  .hero-content h1 {
+    font-size: 28px;
+    color: #222;
+  }
+  
+  .hero-content .highlight {
+    color: #0073e6;
+  }
+  
+  .hero-content p {
+    margin: 10px 0 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .search-bar button {
+    padding: 10px 15px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hero Images */
+  .hero-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .hero-images img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  /* Six Pillars Section */
+  .six-pillars {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .six-pillars h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .six-pillars h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .pillars {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .pillar {
+    width: 250px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .pillar img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .pillar h4 {
+    color: #0073e6;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .pillar p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  footer p {
+      font-size: 0.9rem;
+  }
